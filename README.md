@@ -21,12 +21,17 @@ pip install paramiko
 Uso
 Ejecutar la Aplicación:
 
-python tu_script_principal.py
+python passchange.py
 Ingresar Datos: La aplicación te solicitará la siguiente información:
 
-Rango de IPs: Introduce el rango de direcciones IP de las antenas Ubiquiti que deseas actualizar (ej. 192.168.1.100-192.168.1.150).
+Rango de IPs: Introduce el rango de direcciones IP de las antenas Ubiquiti que deseas actualizar (ej. 192.168.1).
+
+Rango del ultimo Octeto: Introduce el rango de direcciones ip que quieras para cambiar la password (ejem: 10)
+
 Contraseña Antigua: La contraseña actual de acceso a las antenas.
+
 Nueva Contraseña: La nueva contraseña que deseas establecer.
+
 Proceso de Actualización: La aplicación iterará sobre el rango de IPs proporcionado, se conectará a cada antena Ubiquiti y aplicará la nueva contraseña.
 
 Consideraciones de Seguridad
