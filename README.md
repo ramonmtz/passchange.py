@@ -12,6 +12,7 @@ Instalación
 Clonar el Repositorio:
 
 git clone https://github.com/ramonmtz/passchange.py
+
 cd passchange
 Instalar Dependencias:
 
